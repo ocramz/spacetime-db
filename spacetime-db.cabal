@@ -21,7 +21,9 @@ library
   exposed-modules:     Lib
   build-depends:       base >= 4.7 && < 5
                      , bytestring
-                     , store
+                     , streaming
+                     , streaming-osm
+                     -- , store
 
 -- executable spacetime-db
 --   default-language:    Haskell2010
